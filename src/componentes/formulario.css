@@ -1,0 +1,75 @@
+/*Estos estilos definen un formulario con un diseño centrado, un contenedor 
+específico para el formulario, campos de entrada estilizados, un botón y algunos 
+estilos adicionales para los párrafos. También hay estilos para una sección de inicio, 
+que incluyen un título grande (titulo), un encabezado 2 (h2) y botones estilizados.*/
+
+/* estilos generales del fomulario */
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+/* estilos contenedor formulario */
+section{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+
+input{
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    width: 80%;
+    height: 2rem;
+    margin-bottom: 2rem;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.formulario button{
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+.formulario button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+p{
+    margin: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* estilos home */
+
+.titulo{
+    font-size: 6rem;
+}
+
+div h2{
+    font-size: 3.2rem;
+}
+
+div button{
+    background-color: rgba(0, 0, 0, 0.171);
+    border-radius: 50px;
+    font-size: 1.5rem;
+}
+
+div button:hover{
+    background-color: aliceblue;
+    color: black;
+
+} 
